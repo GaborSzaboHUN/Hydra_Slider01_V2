@@ -59,7 +59,7 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-@media (max-width: 525px) {
+@media (max-width: 1440px) {
   .slideshow .slider .item img {
     min-width: unset;
     min-height: unset;
@@ -150,6 +150,13 @@ html {
     font-weight: 500;
   }
 }
+@media (max-width: 320px) {
+  .slideshow-text {
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-weight: 500;
+  }
+}
 
 .the-most {
   position: fixed;
@@ -205,5 +212,5 @@ html {
   height: 100%;
   display: block;
   z-index: 2;
-  background-color: rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.2);
 }/*# sourceMappingURL=style.css.map */
