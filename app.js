@@ -21,8 +21,8 @@ $('.slideshow-left').slick({
     infinite: true,
     dots: true,
     speed: 1000,
-    /* autoplay: true,
-    autoplaySpeed: 3000, */
+    autoplay: true,
+    autoplaySpeed: 8000,
     cssEase: 'cubic-bezier(0.7, 0, 0.3, 1)'
 }).on('beforeChange', function (event, slick, currentSlide, nextSlide) {
 
